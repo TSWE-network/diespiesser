@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Die Spiesser — Catering, Foodtruck &amp; Kochevents in Basel</title>
+  <meta name="description" content="Wir machen deinen Event so richtig spiessig! Catering, Foodtruck und Kochevents in Basel — kreative Gerichte am Spiess, Service par Excellence, alles aus einer Hand.">
+  <meta property="og:title" content="Die Spiesser — wir machen deinen Event so richtig spiessig!">
+  <meta property="og:description" content="Catering, Foodtruck und Kochevents in Basel. Kreative Gerichte am Spiess — Spiessigkeit garantiert.">
+  <meta property="og:image" content="assets/img/hero-grill.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800;900&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Die Spiesser",
+    "description": "Catering, Foodtruck und Kochevents in Basel — kreative Gerichte am Spiess.",
+    "url": "https://www.diespiesser.ch",
+    "areaServed": "Basel, Schweiz",
+    "servesCuisine": "Grill, Spiesse, Catering"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Custom cursor (desktop) -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" aria-label="Die Spiesser — zur Startseite">
+      <img src="assets/logo/spiesser-mark.png" alt="" class="nav__mark">
+      <span class="nav__wordmark"><em>DIE</em> SPIESSER</span>
+    </a>
+    <nav class="nav__links" aria-label="Hauptnavigation">
+      <a href="#angebot" class="nav__link">Angebot</a>
+      <a href="#spiesse" class="nav__link">Spiesse</a>
+      <a href="#ablauf" class="nav__link">Ablauf</a>
+      <a href="#kontakt" class="nav__link">Kontakt</a>
+    </nav>
+    <a href="#kontakt" class="btn btn--primary nav__cta" data-magnetic>Jetzt buchen</a>
+    <button class="nav__burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-menu__links" aria-label="Mobile Navigation">
+      <a href="#angebot">Angebot</a>
+      <a href="#spiesse">Spiesse</a>
+      <a href="#ablauf">Ablauf</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#kontakt" class="btn btn--primary">Jetzt buchen</a>
+    </nav>
+    <img src="assets/logo/spiesser-mark.png" alt="" class="mobile-menu__mark">
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__bg" data-parallax-bg>
+        <img src="assets/img/hero-grill.png" alt="Gegrillte Spiesse über glühender Holzkohle" fetchpriority="high">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title" data-split>
+          Wir machen deinen Event so richtig <span class="hero__title-accent">spiessig.</span>
+        </h1>
+        <p class="hero__sub" data-reveal>
+          Die Spiesser bieten dir einen unvergesslichen Event —
+          kreative Gerichte am Spiess, mit Herz gegrillt.
+          Werde auch du ein Spiesser und buche jetzt!
+        </p>
+        <div class="hero__actions" data-reveal>
+          <a href="#kontakt" class="btn btn--primary btn--lg" data-magnetic>Jetzt buchen</a>
+          <a href="#angebot" class="btn btn--ghost btn--lg" data-magnetic>Unser Angebot</a>
+        </div>
+      </div>
+      <svg class="hero__skewer" viewBox="0 0 60 300" aria-hidden="true" data-float>
+        <line x1="30" y1="0" x2="30" y2="300" stroke="currentColor" stroke-width="4"/>
+        <rect x="10" y="50" width="40" height="40" rx="6" transform="rotate(45 30 70)" fill="var(--orange)"/>
+        <rect x="12" y="130" width="36" height="36" rx="6" transform="rotate(45 30 148)" fill="var(--teal)"/>
+        <rect x="10" y="205" width="40" height="40" rx="6" transform="rotate(45 30 225)" fill="var(--yellow)"/>
+      </svg>
+      <a href="#usp" class="hero__scrollhint" aria-label="Weiter scrollen">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ============ USP ============ -->
+    <section class="usp" id="usp">
+      <div class="container">
+        <h2 class="section-title section-title--light" data-split>Darum die Spiesser</h2>
+        <div class="usp__grid">
+          <article class="usp__card" data-stagger>
+            <div class="usp__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg>
+            </div>
+            <h3>Service par Excellence</h3>
+            <p>Erlebe Catering auf höchstem Niveau — unser Service par Excellence macht deinen Event unvergesslich.</p>
+          </article>
+          <article class="usp__card" data-stagger>
+            <div class="usp__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21s3.5-1 5.5-3S19 7.5 19 7.5 20.5 6 19 4.5 16.5 5 16.5 5 8 13.5 6 15.5 3 21 3 21z"/><path d="M15 6.5l2.5 2.5"/></svg>
+            </div>
+            <h3>Kreative Gerichte</h3>
+            <p>Unsere kreativen Gerichte sind mehr als nur Essen — sie sind kulinarische Kunstwerke, die deine Gäste begeistern.</p>
+          </article>
+          <article class="usp__card" data-stagger>
+            <div class="usp__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v7a6 6 0 0 0 12 0V3"/><path d="M6 3h12"/><path d="M12 16v5"/><path d="M9 21h6"/></svg>
+            </div>
+            <h3>Alles aus einer Hand</h3>
+            <p>Von der Planung bis zur Umsetzung — bei uns erhältst du alles aus einer Hand für einen sorgenfreien Event.</p>
+          </article>
+          <article class="usp__card" data-stagger>
+            <div class="usp__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14s1.2 1.8 3.5 1.8 3.5-1.8 3.5-1.8"/><path d="M9 9.5h.01M15 9.5h.01"/></svg>
+            </div>
+            <h3>Spiessigkeit garantiert</h3>
+            <p>Geniesse aussergewöhnliche Spezialitäten — Spiessigkeit garantiert für ein besonderes Geschmackserlebnis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="angebot">
+      <div class="container">
+        <p class="section-kicker" data-reveal>Was machen wir?</p>
+        <h2 class="section-title" data-split>Und wo findest du uns?</h2>
+
+        <article class="service">
+          <div class="service__media" data-img-reveal>
+            <img src="assets/img/foodtruck.png" alt="Der Spiesser-Foodtruck am Abend mit Lichterketten" loading="lazy" data-parallax-img>
+          </div>
+          <div class="service__body">
+            <span class="service__num" data-reveal>01</span>
+            <h3 class="service__title" data-split>Foodtruck</h3>
+            <p data-reveal>Unser Foodtruck bringt kulinarische Highlights direkt zu deinem Event. Frisch zubereitete Speisen aus der mobilen Küche sorgen für ein einzigartiges und flexibles Geschmackserlebnis, das deine Gäste lieben werden.</p>
+            <a href="#kontakt" class="arrow-link" data-reveal>Foodtruck buchen <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="service service--flip">
+          <div class="service__media" data-img-reveal>
+            <img src="assets/img/catering.png" alt="Elegantes Catering-Buffet mit Spiess-Platten" loading="lazy" data-parallax-img>
+          </div>
+          <div class="service__body">
+            <span class="service__num" data-reveal>02</span>
+            <h3 class="service__title" data-split>Catering Events</h3>
+            <p data-reveal>Ob Hochzeit, Firmenfeier oder Geburtstag — wir bieten massgeschneiderte Catering-Lösungen für jeden Event. Mit unserer breiten Auswahl an Menüs und exzellentem Service machen wir deine Veranstaltung zu einem unvergesslichen Erlebnis.</p>
+            <a href="#kontakt" class="arrow-link" data-reveal>Catering anfragen <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service__media" data-img-reveal>
+            <img src="assets/img/kochevent.png" alt="Kochevent: Gäste spiessen gemeinsam mit dem Profikoch" loading="lazy" data-parallax-img>
+          </div>
+          <div class="service__body">
+            <span class="service__num" data-reveal>03</span>
+            <h3 class="service__title" data-split>Kochevents</h3>
+            <p data-reveal>Unsere Erlebnis-Kochevents verbinden Genuss und Spass in einem interaktiven Format. Unter Anleitung unserer Profiköche lernst du mit deinen Gästen, aussergewöhnliche Gerichte zu zaubern und gemeinsam unvergessliche kulinarische Momente zu erleben.</p>
+            <a href="#kontakt" class="arrow-link" data-reveal>Kochevent erleben <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto">
+      <img src="assets/logo/spiesser-mark.png" alt="" class="manifesto__mark" data-rotate aria-hidden="true">
+      <blockquote class="manifesto__quote" data-split-lines>
+        Spiessig war gestern langweilig.
+        Bei uns heisst spiessig: <em>alles am Spiess</em> —
+        und alle am Tisch.
+      </blockquote>
+    </section>
+
+    <!-- ============ MENU / SPIESSE ============ -->
+    <section class="menu" id="spiesse">
+      <div class="container">
+        <p class="section-kicker" data-reveal>Frisch vom Grill</p>
+        <h2 class="section-title" data-split>Unsere Spiesse</h2>
+        <div class="menu__grid">
+          <article class="menu__card" data-stagger data-tilt>
+            <div class="menu__imgwrap"><img src="assets/img/spiess-huhn.png" alt="Huhn-Satay-Spiesse mit Erdnusssauce" loading="lazy"></div>
+            <div class="menu__info">
+              <span class="menu__tag">Klassiker</span>
+              <h3>Huhn Satay</h3>
+              <p>Zarte Pouletspiesse mit cremiger Erdnusssauce, Limette und Koriander.</p>
+            </div>
+          </article>
+          <article class="menu__card" data-stagger data-tilt>
+            <div class="menu__imgwrap"><img src="assets/img/spiess-gemuese.png" alt="Gemüse-Halloumi-Spiesse vom Grill" loading="lazy"></div>
+            <div class="menu__info">
+              <span class="menu__tag menu__tag--teal">Vegi</span>
+              <h3>Gemüse &amp; Halloumi</h3>
+              <p>Buntes Grillgemüse und Halloumi mit Kräuteröl — knusprig, saftig, spiessig.</p>
+            </div>
+          </article>
+          <article class="menu__card" data-stagger data-tilt>
+            <div class="menu__imgwrap"><img src="assets/img/spiess-rind.png" alt="Rindsspiesse mit Chimichurri" loading="lazy"></div>
+            <div class="menu__info">
+              <span class="menu__tag">Premium</span>
+              <h3>Rind Chimichurri</h3>
+              <p>Saftige Rindsspiesse, medium gegrillt, mit hausgemachtem Chimichurri.</p>
+            </div>
+          </article>
+          <article class="menu__card" data-stagger data-tilt>
+            <div class="menu__imgwrap"><img src="assets/img/spiess-frucht.png" alt="Gegrillte Fruchtspiesse mit Schokolade" loading="lazy"></div>
+            <div class="menu__info">
+              <span class="menu__tag menu__tag--teal">Süss</span>
+              <h3>Frucht &amp; Schoggi</h3>
+              <p>Karamellisierte Früchte vom Grill mit dunkler Schokolade und Minze.</p>
+            </div>
+          </article>
+        </div>
+        <p class="menu__note" data-reveal>… und vieles mehr. Jedes Menü stellen wir individuell für deinen Event zusammen.</p>
+      </div>
+    </section>
+
+    <!-- ============ ABLAUF ============ -->
+    <section class="process" id="ablauf">
+      <div class="container">
+        <p class="section-kicker" data-reveal>So einfach geht's</p>
+        <h2 class="section-title" data-split>Dein Weg zum spiessigen Event</h2>
+        <ol class="process__steps">
+          <li class="process__step" data-stagger>
+            <span class="process__num">01</span>
+            <h3>Anfragen</h3>
+            <p>Erzähl uns von deinem Event — Datum, Ort, Anzahl Gäste und deine Wünsche. Wir melden uns rasch zurück.</p>
+          </li>
+          <li class="process__step" data-stagger>
+            <span class="process__num">02</span>
+            <h3>Planen</h3>
+            <p>Gemeinsam stellen wir dein Menü zusammen: Foodtruck, Catering oder Kochevent — alles aus einer Hand.</p>
+          </li>
+          <li class="process__step" data-stagger>
+            <span class="process__num">03</span>
+            <h3>Geniessen</h3>
+            <p>Wir grillieren, servieren und begeistern deine Gäste. Du lehnst dich zurück — Spiessigkeit garantiert.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2 data-split>Bereit für deinen spiessigsten Event?</h2>
+        <a href="#kontakt" class="btn btn--dark btn--lg" data-magnetic data-reveal>Lass uns brainstormen!</a>
+      </div>
+    </section>
+
+    <!-- ============ KONTAKT ============ -->
+    <section class="contact" id="kontakt">
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <p class="section-kicker section-kicker--light" data-reveal>Kontakt</p>
+          <h2 class="section-title section-title--light" data-split>Kontaktiere uns.</h2>
+          <p class="contact__lead" data-reveal>Wir freuen uns, deinen spiessigen Event zu besprechen — unverbindlich und persönlich.</p>
+          <ul class="contact__facts" data-reveal>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.1-7-11a7 7 0 0 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Basel &amp; Umgebung
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              Antwort innert 48 Stunden
+            </li>
+          </ul>
+        </div>
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__field">
+              <label for="vorname">Vorname *</label>
+              <input type="text" id="vorname" name="vorname" required autocomplete="given-name">
+            </div>
+            <div class="form__field">
+              <label for="nachname">Nachname *</label>
+              <input type="text" id="nachname" name="nachname" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form__field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="form__field">
+            <label for="nachricht">Nachricht *</label>
+            <textarea id="nachricht" name="nachricht" rows="5" required placeholder="Erzähl uns von deinem Event …"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg form__submit" data-magnetic>
+            <span class="form__submit-label">Lass uns brainstormen!</span>
+          </button>
+          <p class="form__success" role="status" hidden>Danke! Deine Nachricht ist unterwegs — wir melden uns bald. 🍢</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/logo/die-spiesser-logo.png" alt="Die Spiesser Logo" class="footer__logo">
+          <p>Öde und spiessige Events sind unsere Spezialität.<br>Werde auch du ein Spiesser.</p>
+        </div>
+        <nav class="footer__cols" aria-label="Footer Navigation">
+          <div class="footer__col">
+            <h4>Allgemein</h4>
+            <a href="#top">FAQs</a>
+            <a href="#top">Datenschutzerklärung</a>
+            <a href="#top">AGB's</a>
+          </div>
+          <div class="footer__col">
+            <h4>Catering</h4>
+            <a href="#angebot">Foodtruck</a>
+            <a href="#angebot">Events</a>
+            <a href="#kontakt">Kontaktiere uns</a>
+          </div>
+          <div class="footer__col">
+            <h4>Spiesser Lexikon</h4>
+            <a href="#top">Über uns</a>
+            <a href="#top">Blog</a>
+            <a href="#top">Impressum</a>
+          </div>
+          <div class="footer__col footer__col--news">
+            <h4>Abonniere unseren Newsletter</h4>
+            <form class="footer__newsletter" id="newsletterForm" novalidate>
+              <input type="email" placeholder="deine@email.ch" aria-label="Email für Newsletter" required>
+              <button type="submit" class="btn btn--primary">abonnieren</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Die Spiesser. All rights reserved.</p>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v2a6 6 0 0 1 2-2z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22.5 6.4a3 3 0 0 0-2.1-2.1C18.5 3.8 12 3.8 12 3.8s-6.5 0-8.4.5A3 3 0 0 0 1.5 6.4 31 31 0 0 0 1 12a31 31 0 0 0 .5 5.6 3 3 0 0 0 2.1 2.1c1.9.5 8.4.5 8.4.5s6.5 0 8.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 23 12a31 31 0 0 0-.5-5.6z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
