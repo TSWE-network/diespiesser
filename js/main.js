@@ -202,17 +202,6 @@
     scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom 30%', scrub: true }
   });
 
-  // Floating skewer ornament
-  var skewer = document.querySelector('[data-float]');
-  if (skewer) {
-    gsap.to(skewer, { y: -18, duration: 2.6, yoyo: true, repeat: -1, ease: 'sine.inOut' });
-    gsap.to(skewer, {
-      rotation: 14,
-      ease: 'none',
-      scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: true }
-    });
-  }
-
   /* ---------- split titles reveal on scroll ---------- */
 
   document.querySelectorAll('[data-split]').forEach(function (el) {

@@ -39,7 +39,7 @@
   <header class="nav" id="nav">
     <a href="#top" class="nav__brand" aria-label="Die Spiesser — zur Startseite">
       <img src="assets/logo/spiesser-mark.png" alt="" class="nav__mark">
-      <span class="nav__wordmark"><em>DIE</em> SPIESSER</span>
+      <img src="assets/logo/die-spiesser-text.png" alt="Die Spiesser" class="nav__wordmark">
     </a>
     <nav class="nav__links" aria-label="Hauptnavigation">
       <a href="#angebot" class="nav__link">Angebot</a>
@@ -87,12 +87,6 @@
           <a href="#angebot" class="btn btn--ghost btn--lg" data-magnetic>Unser Angebot</a>
         </div>
       </div>
-      <svg class="hero__skewer" viewBox="0 0 60 300" aria-hidden="true" data-float>
-        <line x1="30" y1="0" x2="30" y2="300" stroke="currentColor" stroke-width="4"/>
-        <rect x="10" y="50" width="40" height="40" rx="6" transform="rotate(45 30 70)" fill="var(--orange)"/>
-        <rect x="12" y="130" width="36" height="36" rx="6" transform="rotate(45 30 148)" fill="var(--teal)"/>
-        <rect x="10" y="205" width="40" height="40" rx="6" transform="rotate(45 30 225)" fill="var(--yellow)"/>
-      </svg>
       <a href="#usp" class="hero__scrollhint" aria-label="Weiter scrollen">
         <span></span>
       </a>
@@ -101,12 +95,16 @@
     <!-- ============ MARQUEE ============ -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee__track">
-        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
-        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
-        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
-        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
-        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
-        <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        <div class="marquee__group">
+          <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+          <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+          <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        </div>
+        <div class="marquee__group">
+          <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+          <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+          <span>Spiessig&nbsp;·&nbsp;Foodtruck&nbsp;·&nbsp;Catering&nbsp;·&nbsp;Kochevents&nbsp;·&nbsp;Basel&nbsp;·&nbsp;Alles&nbsp;am&nbsp;Spiess&nbsp;·&nbsp;</span>
+        </div>
       </div>
     </div>
 
@@ -210,7 +208,6 @@
           <article class="menu__card" data-stagger data-tilt>
             <div class="menu__imgwrap"><img src="assets/img/spiess-huhn.png" alt="Huhn-Satay-Spiesse mit Erdnusssauce" loading="lazy"></div>
             <div class="menu__info">
-              <span class="menu__tag">Klassiker</span>
               <h3>Huhn Satay</h3>
               <p>Zarte Pouletspiesse mit cremiger Erdnusssauce, Limette und Koriander.</p>
             </div>
@@ -218,7 +215,6 @@
           <article class="menu__card" data-stagger data-tilt>
             <div class="menu__imgwrap"><img src="assets/img/spiess-gemuese.png" alt="Gemüse-Halloumi-Spiesse vom Grill" loading="lazy"></div>
             <div class="menu__info">
-              <span class="menu__tag menu__tag--teal">Vegi</span>
               <h3>Gemüse &amp; Halloumi</h3>
               <p>Buntes Grillgemüse und Halloumi mit Kräuteröl — knusprig, saftig, spiessig.</p>
             </div>
@@ -226,7 +222,6 @@
           <article class="menu__card" data-stagger data-tilt>
             <div class="menu__imgwrap"><img src="assets/img/spiess-rind.png" alt="Rindsspiesse mit Chimichurri" loading="lazy"></div>
             <div class="menu__info">
-              <span class="menu__tag">Premium</span>
               <h3>Rind Chimichurri</h3>
               <p>Saftige Rindsspiesse, medium gegrillt, mit hausgemachtem Chimichurri.</p>
             </div>
@@ -234,7 +229,6 @@
           <article class="menu__card" data-stagger data-tilt>
             <div class="menu__imgwrap"><img src="assets/img/spiess-frucht.png" alt="Gegrillte Fruchtspiesse mit Schokolade" loading="lazy"></div>
             <div class="menu__info">
-              <span class="menu__tag menu__tag--teal">Süss</span>
               <h3>Frucht &amp; Schoggi</h3>
               <p>Karamellisierte Früchte vom Grill mit dunkler Schokolade und Minze.</p>
             </div>
