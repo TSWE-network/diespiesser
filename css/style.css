@@ -612,6 +612,19 @@ section { position: relative; }
 }
 .menu__card:hover .menu__imgwrap img { transform: scale(1.08) rotate(1deg); }
 .menu__info { padding: 1.3rem 1.3rem 1.5rem; }
+.menu__tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--orange);
+  border-radius: 999px;
+  padding: 0.22rem 0.75rem;
+  margin-bottom: 0.6rem;
+}
+.menu__tag--teal { background: var(--teal-dark); }
 .menu__info h3 {
   font-family: var(--font-display);
   font-weight: 800;
